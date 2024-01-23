@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Text Highlighter</title>
+    <script src="extension.js"></script>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="header">
+        <img src="logo.svg" id="logo">
+        <span id="extension_name">EthicalUX - Extension</span>
+        <button id="dark-mode"></button>
+    </div>
+    <div class="button-container">
+        <button id="b1">
+            <img src="button_off.svg" id="b_image">
+        </button>
+    </div>
+    <div class="counter-container">
+        Dark Patterns: 
+        <span id="count">0</span>
+    </div>
+    <a href="guide.html" target="_blank" rel="noopener noreferrer" class="guide-button">Go to Guide</a>
+    
+    <div class="button-row">
+        
+        <div class="contact-container">
+            <button id="contact-button" onclick="displayContactNumber()">Contact Us</button>
+            <div id="contact-number-container"></div>
+        </div>
+    </div>
+</body>
+</html>
